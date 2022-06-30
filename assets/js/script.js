@@ -15,4 +15,7 @@ jq2(function( $ ) {
     $('.burger-btn').click(function(event) {
         $('.burger-mn, .burger-btn__body, .header__nav').toggleClass('active');
     });
+    $('.close').click(function(event) {
+        $('.burger-mn, .burger-btn__body, .header__nav').removeClass('active');
+    });
 });
